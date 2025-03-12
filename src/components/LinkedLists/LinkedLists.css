@@ -9,7 +9,7 @@
   }
   
   .title {
-    font-size: 3rem;
+    font-size: 8.8rem;
     font-weight: bold;
     color: black;
     text-align: center;
@@ -49,3 +49,4 @@
   .close-video:hover {
     background-color: #ff0066;
   }
+
