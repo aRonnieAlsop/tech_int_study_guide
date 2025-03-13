@@ -12,12 +12,39 @@ function Home() {
         <div className="category">
           <h2>Data Structures</h2>
           <ul>
-            <li><Link to="/linkedlists">Linked Lists</Link></li>
-            <li><a href="#">Trees, Tries, & Graphs</a></li>
-            <li><a href="#">Stacks & Queues</a></li>
-            <li><a href="#">Heaps</a></li>
-            <li><a href="#">Vectors/ArrayLists</a></li>
-            <li><a href="#">Hash Tables</a></li>
+            <li>
+              <Link to="/linkedlists" className="data-link">Linked Lists
+            </Link>
+            <div className="popup">Linked Lists: Use for efficient insertions and deletions and flexible sizing, but avoid for random access.</div>
+            </li>
+            <li>
+              <Link to="/trees" className="data-link">Trees, Tries, & Graphs
+            </Link>
+            <div className="popup">Trees: Use for hierarchical data, efficient searching, insertion, and deletion.
+Tries: Use for prefix-based searches and efficiently storing large sets of strings.
+Graphs: Use for networks or relationships and pathfinding problems.
+            </div>
+            </li>
+            <li>
+              <Link to="/stacks" className="data-link">Stacks & Queues
+            </Link>
+            <div className="popup">Stacks & Queues: Use for order-dependent processing, with stacks for LIFO and queues for FIFO.</div>
+            </li>
+            <li>
+              <Link to="/heaps" className="data-link">Heaps
+            </Link>
+            <div className="popup">Heaps: Use for priority-based processing and dynamic sorting.</div>
+            </li>
+            <li>
+              <Link to="/vectors" className="data-link">Vectors/ArrayLists
+            </Link>
+            <div className="popup">Vectors/ArrayLists: Use for dynamic, resizable arrays with quick random access.</div>
+            </li>
+            <li>
+              <Link to="/hash" className="data-link">Hash Tables
+            </Link>
+            <div className="popup">Hash Tables: Use for fast lookups, counting occurrences, grouping elements, and ensuring uniqueness.</div>
+            </li>
           </ul>
         </div>
         <div className="category">
