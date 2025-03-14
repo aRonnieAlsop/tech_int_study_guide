@@ -6,6 +6,7 @@ import Trees from './components/TreesTriesGraphs/Trees';
 import Stacks from './components/StacksQueues/StacksQueues';
 import Vectors from './components/VecrtorsArrayLists/Vectors';
 import Heaps from './components/Heaps/Heaps';
+import Hash from './components/HashTables/HashTables';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
        <Route path="/trees" element={<Trees />} />
        <Route path="/stacks" element={<Stacks />} />
        <Route path="/vectors" element={<Vectors />} />
-       <Route path="/Heaps" element={<Heaps />} />
+       <Route path="/heaps" element={<Heaps />} />
+       <Route path="/hash" element={<Hash />} />
       </Routes>
     </Router>
   );

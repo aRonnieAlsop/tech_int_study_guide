@@ -1,0 +1,38 @@
+.stacks-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .summary {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+  }
+  
+  .use-cases {
+    margin-top: 20px;
+  }
+  
+  .use-cases ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .use-cases li {
+    margin: 10px 0;
+  }
+  
+  button.easy-problem-btn {
+    background-color: #FF1493;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  button.easy-problem-btn:hover {
+    background-color: #45a049;
+  }
+  
