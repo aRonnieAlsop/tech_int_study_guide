@@ -1,0 +1,134 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  .clue-row {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 50px;
+  }
+  
+  .clue-box {
+    background-color: #ff1493;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    font-size: 1.1rem;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .clue-box:hover {
+    transform: scale(1.1);
+  }
+  
+  .selected-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .center {
+    background-color: #ffb6c1;
+    color: #ff1493;
+    font-size: 1.5rem;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .category-box {
+    background-color: #ff1493;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .show-algorithms-link {
+    cursor: pointer;
+    color: #ff1493;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    margin-bottom: 20px;
+  }
+  
+  .show-algorithms-link .link-text:hover {
+    color: #ffb6c1;
+  }
+  
+  .algorithm-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .algorithm-item {
+    background-color: #ff1493;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+    display: inline-block;
+  }
+  
+  .back-button {
+    background-color: #ff1493;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    align-self: flex-start;
+    transition: background-color 0.3s;
+    display: block;
+  }
+  
+  .back-button:hover {
+    background-color: #ffb6c1;
+  }
+  
+  @media (max-width: 768px) {
+    .clue-row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .clue-box {
+      width: 80%;
+      margin-bottom: 10px;
+    }
+  
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    .algorithm-item {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
