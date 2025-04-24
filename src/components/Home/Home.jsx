@@ -68,7 +68,7 @@ Graphs: Use for networks or relationships and pathfinding problems.
           </ul>
         </div>
         <div className="algorithm-to-use">
-          <Link className="algorithm-case-link">
+          <Link to="/cases-for-algorithms" className="algorithm-case-link">
           How<br />to<br />Know<br />Which<br />Algorithm<br />to<br />Use
           </Link>
           </div>

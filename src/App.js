@@ -7,6 +7,7 @@ import Stacks from './components/StacksQueues/StacksQueues';
 import Vectors from './components/VecrtorsArrayLists/Vectors';
 import Heaps from './components/Heaps/Heaps';
 import Hash from './components/HashTables/HashTables';
+import CaseForAlgorithms from './components/CasesForAlgorithms/CaseForAlgorithms';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
        <Route path="/vectors" element={<Vectors />} />
        <Route path="/heaps" element={<Heaps />} />
        <Route path="/hash" element={<Hash />} />
+       <Route path="/cases-for-algorithms" element={<CaseForAlgorithms />} />
       </Routes>
     </Router>
   );
