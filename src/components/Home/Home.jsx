@@ -67,6 +67,11 @@ Graphs: Use for networks or relationships and pathfinding problems.
             <li><a href="#">Big O Time & Space</a></li>
           </ul>
         </div>
+        <div className="algorithm-to-use">
+          <Link className="algorithm-case-link">
+          How<br />to<br />Know<br />Which<br />Algorithm<br />to<br />Use
+          </Link>
+          </div>
       </div>
     </div>
   );
